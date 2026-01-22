@@ -1,0 +1,76 @@
+# =========================
+# Python (caché y basura)
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# =========================
+# Entornos (NO versionar)
+# =========================
+.venv/
+venv/
+env/
+ENV/
+.python-version
+.env
+.env.*
+
+# =========================
+# IDE / SO
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Datos (NUNCA)
+# =========================
+data/**
+datalake_bearings/
+
+# =========================
+# Figuras / imágenes (FUERA)
+# =========================
+figures/
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# =========================
+# Modelos
+# =========================
+# En models NO queremos outputs, salvo los .pkl
+models/**
+!models/**/
+!models/**/*.pkl
+
+# (por claridad, aunque ya quedan cubiertos por models/**)
+models/**/*.csv
+models/**/*.joblib
+models/**/*.pt
+models/**/*.pth
+models/**/*.ckpt
+models/**/logs/
+models/**/tmp/
+
+# =========================
+# Outputs / temporales
+# =========================
+*.log
+*.out
+*.tmp
+*.cache
+
+# =========================
+# Docker artefacts
+# =========================
+*.tar
+*.tar.gz
