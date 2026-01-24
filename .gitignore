@@ -1,0 +1,58 @@
+# =========================
+# IGNORAR TODO POR DEFECTO
+# =========================
+*
+
+# =========================
+# PERMITIR DIRECTORIOS
+# =========================
+!*/
+
+# =========================
+# PERMITIR SOLO LO QUE QUEREMOS
+# =========================
+!**/*.py
+!**/*.pkl
+
+!.gitignore
+!README.md
+!requirements.txt
+!**/*.yml
+!**/*.yaml
+!**/*.md
+!**/*.txt
+
+# =========================
+# BLOQUEOS EXPLÍCITOS
+# =========================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+ENV/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+data/
+datalake_bearings/
+figures/
+
+*.csv
+*.parquet
+*.feather
+*.xlsx
+*.json
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+*.log
+*.out
+*.tmp
+*.cache
+*.tar
+*.tar.gz
