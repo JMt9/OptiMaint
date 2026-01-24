@@ -139,7 +139,7 @@ python bearings_pipeline/consumer_overhang.py
 ```bash
 python bearings_pipeline/consumer_underhang.py
 ```
-B) Defects (imágenes)
+### B) Defects (imágenes)
 
 Abre 3 terminales y ejecuta:
 
