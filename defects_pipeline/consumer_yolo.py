@@ -22,12 +22,12 @@ consumer.subscribe([topic_in])
 
 
 # Crear carpeta de salida
-output_dir = r"C:\Users\ireme\PycharmProjects\Reto2\yolo_defect\processed_images"
+output_dir = r"yolo_defect\processed_images"
 os.makedirs(output_dir, exist_ok=True)  # crea la carpeta si no existe
 
 
 # Cargar modelo YOLO
-model_yolo = YOLO(r"C:\Users\ireme\PycharmProjects\Reto2\best.pt")
+model_yolo = YOLO(r"defects\models\best.pt")
 device = 'cpu'
 model_yolo.to(device)
 
